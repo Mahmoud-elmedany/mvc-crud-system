@@ -1,11 +1,13 @@
-# Java Spring Boot CRUD Application
+# Java Spring Boot CRUD Application with Security and JWT
 
 ## Project Description
+This project is a **CRUD application** (Create, Read, Update, Delete) built with **Java Spring Boot**.
+It follows the **MVC architecture** to separate the presentation layer, business logic, and data layer.
+The application uses **SQL Server** as the database for data storage and management.
 
-This project is a **CRUD application** (Create, Read, Update, Delete) built with **Java Spring Boot**. It follows the **MVC architecture** to separate the presentation layer, business logic, and data layer. The application uses **SQL Server** as the database for data storage and management.
+Additionally, the project includes **Spring Security** for authentication and authorization, and uses **JWT (JSON Web Tokens)** for stateless, secure API access.
 
 ## Requirements
-
 To run this project locally, you need:
 
 - Java JDK 17 or higher
@@ -15,7 +17,6 @@ To run this project locally, you need:
 - An IDE like IntelliJ IDEA or Eclipse
 
 ## Setup Instructions
-
 1. **Clone the repository**:
    ```bash
    git clone <https://github.com/Mahmoud-elmedany/mvc-crud-system.git>
@@ -38,25 +39,26 @@ To run this project locally, you need:
    - You can access the different CRUD operations through the endpoints defined in the controllers.
 
 ## Features
-
 - Create new records in the database.
 - View all existing records.
 - Update existing records.
 - Delete records easily.
 - Follows **MVC architecture** for clean separation of concerns.
+- **Spring Security** integrated for authentication and authorization.
+- **JWT-based authentication** for stateless and secure API access.
 
 ## Technologies Used
-
 - **Java 17**
 - **Spring Boot**
 - **Spring MVC**
 - **Spring Data JPA**
+- **Spring Security**
+- **JWT (JSON Web Token)**
 - **SQL Server**
 - **Maven**
 
 ## Notes
-
 - Make sure SQL Server is running before starting the application.
 - Database connection settings can be customized in `application.properties`.
-- The project can be extended by adding more entities, services, and endpoints as needed.
+- The project can be extended by adding more entities, services, endpoints, or additional security roles as needed.
 
